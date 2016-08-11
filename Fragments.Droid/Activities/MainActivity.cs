@@ -12,7 +12,8 @@ namespace Fragments.Droid.Activities
 {
 	[Activity(Label = "Fragments",
 		LaunchMode = LaunchMode.SingleTop,
-		Name = "fragments.droid.activities.MainActivity"
+		Name = "fragments.droid.activities.MainActivity",
+		Theme = "@style/AppTheme"
 		)]
 	class MainActivity : MvxCachingFragmentCompatActivity<MainViewModel>, INavigationActivity
 	{

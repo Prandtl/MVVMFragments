@@ -11,7 +11,7 @@ namespace Fragments.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.HomeViewModel>();
+            RegisterAppStart(new AppStart());
         }
     }
 }

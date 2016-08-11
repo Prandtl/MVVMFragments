@@ -3753,14 +3753,11 @@ namespace Fragments.Droid
 			// aapt resource value: 0x7f060018
 			public const int multiply = 2131099672;
 			
-			// aapt resource value: 0x7f06008c
-			public const int nav_home = 2131099788;
-			
 			// aapt resource value: 0x7f06008b
-			public const int nav_items = 2131099787;
+			public const int nav_home = 2131099787;
 			
-			// aapt resource value: 0x7f06008d
-			public const int nav_settings = 2131099789;
+			// aapt resource value: 0x7f06008c
+			public const int nav_settings = 2131099788;
 			
 			// aapt resource value: 0x7f06006e
 			public const int navigation_frame = 2131099758;
@@ -4152,13 +4149,10 @@ namespace Fragments.Droid
 			public const int SplashScreen = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int startView = 2130903092;
+			public const int support_simple_spinner_dropdown_item = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int support_simple_spinner_dropdown_item = 2130903093;
-			
-			// aapt resource value: 0x7f030036
-			public const int toolbar_actionbar = 2130903094;
+			public const int toolbar_actionbar = 2130903093;
 			
 			static Layout()
 			{

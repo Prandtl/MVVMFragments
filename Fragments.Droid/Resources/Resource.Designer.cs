@@ -3552,6 +3552,9 @@ namespace Fragments.Droid
 			// aapt resource value: 0x7f060020
 			public const int always = 2131099680;
 			
+			// aapt resource value: 0x7f060085
+			public const int appbar = 2131099781;
+			
 			// aapt resource value: 0x7f06001d
 			public const int beginning = 2131099677;
 			
@@ -3867,6 +3870,9 @@ namespace Fragments.Droid
 			// aapt resource value: 0x7f06004a
 			public const int title_template = 2131099722;
 			
+			// aapt resource value: 0x7f060086
+			public const int toolbar = 2131099782;
+			
 			// aapt resource value: 0x7f060034
 			public const int top = 2131099700;
 			
@@ -4094,6 +4100,9 @@ namespace Fragments.Droid
 			// aapt resource value: 0x7f030033
 			public const int support_simple_spinner_dropdown_item = 2130903091;
 			
+			// aapt resource value: 0x7f030034
+			public const int toolbar_actionbar = 2130903092;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -4178,6 +4187,12 @@ namespace Fragments.Droid
 			
 			// aapt resource value: 0x7f070016
 			public const int character_counter_pattern = 2131165206;
+			
+			// aapt resource value: 0x7f07001c
+			public const int drawer_close = 2131165212;
+			
+			// aapt resource value: 0x7f07001b
+			public const int drawer_open = 2131165211;
 			
 			// aapt resource value: 0x7f070017
 			public const int fab_scroll_shrink_grow_autohide_behavior = 2131165207;

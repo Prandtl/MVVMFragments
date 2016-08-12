@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
+using Android.Support.V4.Widget;
 using Android.Views;
 using Fragments.Core.ViewModels;
 using Fragments.Droid.Activities;

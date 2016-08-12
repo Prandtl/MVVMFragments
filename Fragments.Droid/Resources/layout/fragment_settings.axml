@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar_actionbar" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="This are the awesome settings of awesomeness!"
+        android:textColor="@color/black"
+        android:layout_gravity="top"
+        android:layout_centerInParent="true" />
+    <Button
+        android:text="Шоу Алерт нау."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:id="@+id/button1"
+        local:MvxBind="Click ShowAlertCommand"/>
+</RelativeLayout>
